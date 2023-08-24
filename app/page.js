@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useState,useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTelegram } from "@fortawesome/free-brands-svg-icons";
+import Loader from "@/components/Loader";
 
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -11,6 +12,7 @@ export default function Home() {
   const [isBVisible, setIsBVisible] = useState(false);
   const [isTVisible, setIsTVisible] = useState(false);
   const [isPVisible, setIsPVisible] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
 
   const handleScroll = () => {
@@ -56,14 +58,9 @@ export default function Home() {
       }
     }
 
-    // if (joinUsSection) {
-    //   const rect = joinUsSection.getBoundingClientRect();
-    //   const windowHeight = window.innerHeight || document.documentElement.clientHeight;
-      
-    //   if (rect.top <= windowHeight * 0.75) {
-    //     setJoinUsSectionVisible(true);
-    //   }
-    // }
+    
+
+    
   };
 
 
@@ -73,6 +70,15 @@ export default function Home() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  setTimeout(() => {
+    setIsLoading(false);
+  }, 5000);
+
+
+if (isLoading) {
+  return <Loader />;
+}
 
   return (
     <div className="bg-gray-100">
@@ -281,7 +287,7 @@ export default function Home() {
 
       <div
         id="banner"
-        className={`py-10 md:pb-14 flex items-center bg-gray-100 border-t border-b border-[#f0833a] justify-center ${ isBVisible ? "slide-in active" : "slide-in" }`}
+        className={`py-10 md:pb-14 px-6 flex items-center bg-gray-100 border-t border-b border-[#f0833a] justify-center ${ isBVisible ? "slide-in active" : "slide-in" }`}
       >
         <img
           src="/cover.jpeg"

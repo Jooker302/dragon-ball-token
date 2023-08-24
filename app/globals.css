@@ -61,3 +61,15 @@
   opacity: 1;
   transform: translateY(0);
 }
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensures the loader is vertically centered on the entire viewport */
+}
+
+.loader-image {
+  max-width: 100%;
+  max-height: 100%;
+}
