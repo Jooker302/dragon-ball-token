@@ -155,7 +155,7 @@ if (isLoading) {
         <h2 className="mt-4 text-xl font-semibold md:text-2xl">Introducing</h2>
         <p className="mt-4 text-xl font-semibold text-center ">
           <span className={`font-bold text-[#f0833a] wave`}>
-            Dragon Ball Token
+            Dragon Balls Token
           </span>
           : Unleashing Saiyans in the Crypto Realm.
         </p>
@@ -168,7 +168,7 @@ if (isLoading) {
           <div className="py-12 md:py-20 border-t border-[#f0833a]">
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
               <h1 className="h2 text-xl mb-4">
-                About <span className="text-[#f0833a]">Dragon Ball</span>
+                About <span className="text-[#f0833a]">Dragon Balls</span>
               </h1>
               <p className="text-xl ">
               "Dragon Balls" – a one-of-a-kind crypto token that draws its inspiration from the beloved cartoon series. Just as the mystical Dragon Balls grant wishes, our token aims to bring a touch of magic to the crypto space, offering exciting opportunities and a sense of adventure to all its holders. Join us on this journey where technology and imagination collide!
