@@ -217,6 +217,16 @@ export default function Home() {
       </div>
     </section>
 
+
+
+    <div id="banner" className="py-10 md:pb-14 flex items-center justify-center">
+        <img
+          src="/cover.jpeg"
+          alt="Pulsating Image"
+          className="animated-image"
+        />
+      </div>
+
     </>
   )
 }
