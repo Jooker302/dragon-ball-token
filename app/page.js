@@ -171,12 +171,7 @@ if (isLoading) {
                 About <span className="text-[#f0833a]">Dragon Ball</span>
               </h1>
               <p className="text-xl ">
-                Embark on an extraordinary adventure with "Dragon Balls," a
-                revolutionary crypto token that pays homage to the legendary
-                cartoon series while bringing a unique blend of innovation and
-                imagination to the blockchain realm. Our mission is to infuse
-                the world of cryptocurrencies with the spirit of adventure and
-                the thrill of wish fulfillment.
+              "Dragon Balls" – a one-of-a-kind crypto token that draws its inspiration from the beloved cartoon series. Just as the mystical Dragon Balls grant wishes, our token aims to bring a touch of magic to the crypto space, offering exciting opportunities and a sense of adventure to all its holders. Join us on this journey where technology and imagination collide!
               </p>
             </div>
 
